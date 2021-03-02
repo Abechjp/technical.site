@@ -6,8 +6,6 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: 'https://raw.githubusercontent.com/ohiro18/technical.site/master/src/components/images/TechnicalSite_1.png',
-    logoLink: 'https://ohiro18.github.io/technical.site/',
     title:
       "<a href='https://ohiro18.github.io/technical.site/'><img class='img-responsive' src='https://raw.githubusercontent.com/ohiro18/technical.site/master/src/components/images/TechnicalSite_2.png' alt='Learn logo' /></a>",
     githubUrl: 'https://github.com/hasura/gatsby-gitbook-boilerplate',
@@ -40,17 +38,10 @@ const config = {
 		        <img src='https://raw.githubusercontent.com/ohiro18/technical.site/master/src/components/images/file-ppt.svg' alt={'Twitter'}/>
 		      </div>
 		    </a>
-		  </li>          
-			<li>
-		    <a href="https://discordapp.com/invite/hasura" target="_blank" rel="noopener">
-		      <div class="discordBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/discord-brands-block.svg' alt={'Discord'}/>
-		      </div>
-		    </a>
 		  </li>`,
     links: [{ text: '', link: '' }],
     search: {
-      enabled: false,
+      enabled: true,
       indexName: '',
       algoliaAppId: process.env.GATSBY_ALGOLIA_APP_ID,
       algoliaSearchKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
@@ -65,7 +56,7 @@ const config = {
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
     ],
-    links: [{ text: 'お問い合わせ', link: 'https://www.sbcloud.co.jp/contact_jp/' }],
+    links: [{ text: 'お問い合わせ', link: 'https://www.sbcloud.co.jp/contact_jp/' },{ text: 'よくある質問はTSSへ', link: 'https://www.sbcloud.co.jp/service/about/ts/' }],
     frontline: false,
     ignoreIndex: true,
     //title:

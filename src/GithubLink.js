@@ -1,5 +1,5 @@
 import React from 'react';
-const githubIcon = require('./components/images/github.svg');
+const githubIcon = require('https://raw.githubusercontent.com/ohiro18/technical.site/master/src/components/images/github.png');
 
 const GithubLink = ({ link, text }) => {
   return (

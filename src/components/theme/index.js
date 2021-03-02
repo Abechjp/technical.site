@@ -18,11 +18,11 @@ const lightTheme = {
 const darkTheme = {
   ...baseTheme,
   colors: {
-    background: '#4C8273',
+    background: '#001934',
     heading: '#fff',
     text: '#fff',
     preFormattedText: '#000',
-    link: '#1ED3C6',
+    link: '#2FA0C6',
   },
 };
 
