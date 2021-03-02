@@ -69,6 +69,7 @@ const config = {
       '/developer-ROS',
     ],
     collapsedNav: [
+      '/introduction',
       '/ElasticComputing',
       '/Networking_CDN',
       '/Storage',
