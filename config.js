@@ -1,6 +1,6 @@
 const config = {
   gatsby: {
-    pathPrefix: '/',
+    pathPrefix: '/technical.site',
     siteUrl: 'https://ohiro18.github.io/technical.site/',
     gaTrackingId: null,
     trailingSlash: false,
