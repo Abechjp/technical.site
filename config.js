@@ -6,10 +6,10 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: '/src/components/images/TechnicalSite_1.png',
+    logo: 'https://raw.githubusercontent.com/ohiro18/technical.site/master/src/components/images/TechnicalSite_1.png',
     logoLink: 'https://www.sbcloud.co.jp/',
     title:
-      "<a href='https://www.sbcloud.co.jp/'><img class='img-responsive' src='/src/components/images/TechnicalSite_2.png' alt='Learn logo' /></a>",
+      "<a href='https://www.sbcloud.co.jp/'><img class='img-responsive' src='https://raw.githubusercontent.com/ohiro18/technical.site/master/src/components/images/TechnicalSite_2.png' alt='Learn logo' /></a>",
     githubUrl: 'https://github.com/hasura/gatsby-gitbook-boilerplate',
     helpUrl: '',
     tweetText: '',
