@@ -8,7 +8,7 @@ const config = {
   header: {
     title:
       "<a href='https://ohiro18.github.io/technical.site/'><img class='img-responsive' src='https://raw.githubusercontent.com/ohiro18/technical.site/master/src/components/images/TechnicalSite_2.png' alt='Learn logo' /></a>",
-    githubUrl: 'https://github.com/hasura/gatsby-gitbook-boilerplate',
+    githubUrl: 'https://github.com/ohiro18/technical.site/',
     helpUrl: '',
     tweetText: '',
     social: `<li>
@@ -50,11 +50,39 @@ const config = {
   },
   sidebar: {
     forcedNavOrder: [
-      '/introduction', // add trailing slash if enabled above
-      '/codeblock',
+      '/introduction',
+      '/advisory',
+      '/various_pricing_model',
+      '/ElasticComputing',
+      '/Networking_CDN',
+      '/Storage',
+      '/Security',
+      '/Analytics',
+      '/Database',      
+      '/EnterpriseApplications_CloudCommunication',
+      '/ArtificialIntelligence',
+      '/migration',
+      '/usecase-web-application',
+      '/usecase-data-analytics',
+      '/developer-tools',
+      '/developer-terraform',
+      '/developer-ROS',
     ],
     collapsedNav: [
-      '/codeblock', // add trailing slash if enabled above
+      '/ElasticComputing',
+      '/Networking_CDN',
+      '/Storage',
+      '/Security',
+      '/Analytics',
+      '/Database', 
+      '/EnterpriseApplications_CloudCommunication',
+      '/ArtificialIntelligence',
+      '/migration',
+      '/usecase-web-application',
+      '/usecase-data-analytics',
+      '/developer-tools',
+      '/developer-terraform',
+      '/developer-ROS',
     ],
     links: [{ text: 'お問い合わせ', link: 'https://www.sbcloud.co.jp/contact_jp/' },{ text: 'よくある質問はTSSへ', link: 'https://www.sbcloud.co.jp/service/about/ts/' }],
     frontline: false,
@@ -67,7 +95,7 @@ const config = {
     description: 'SBクラウドによるテクニカルリファレンスです',
     ogImage: null,
     docsLocation: 'https://github.com/ohiro18/technical.site/tree/master/content',
-    favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
+    favicon: 'https://www.sbcloud.co.jp/icon/favicon',
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.

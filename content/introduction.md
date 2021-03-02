@@ -1,10 +1,16 @@
 ---
-title: "Introduction"
-metaTitle: "This is the title tag of this page"
-metaDescription: "This is the meta description"
+title: "はじめに"
+metaTitle: "はじめに"
+metaDescription: "SBクラウド、Alibaba Cloud、よくある質問などを紹介します"
 ---
 
-Some introduction text. Lists out all the headings from h1 to h6. Easy to customise.
+## はじめに
+
+## Alibaba Cloudとは
+AlibabaCloudは中国発サービスで、中国人口が約14億人もいる中で唯一シェアを伸ばしている、APAC's No.1のパブリッククラウドです。
+※ガートナー(Gartner)の調査によると、アリババクラウドは世界第3位のIaaSプロバイダーであり、アジア太平洋地域では市場シェア1位のIaaSおよびIUS（インフラストラクチャ・ユーティリティ・サービス）です。
+https://www.alibabacloud.com/campaign/apac-number-one
+
 
 # Heading H1
 Heading 1 text
@@ -30,3 +36,24 @@ Heading 6 text
 - Item 3
 - Item 4
 - Item 5
+
+The following is a code block with JavaScript language syntax highlighting.
+
+```javascript
+import React from 'react';
+```
+
+Supports multiple languages.
+
+The following is a code block with diff. Lines with `+` highlighted in green shade indicating an addition. Lines with `-` highlighted in red shade indicating a deletion.
+
+```javascript
+- const data = ['1','2'];
++ const data = [1,2];
+```
+
+## Live Editing example
+
+```javascript react-live=true
+<button className={'btn btn-default'}>Change my text</button>
+```
