@@ -74,6 +74,6 @@
   },
  "scripts": {
  "start": "gatsby develop",
- "build": "gatsby build --prefix-paths"
+ "build": "gatsby build --prefix-paths && mv public/* docs/"
  }
 }
