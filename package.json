@@ -57,6 +57,7 @@
   "scripts": {
     "start": "gatsby develop",
     "build": "gatsby build --prefix-paths && cp -pvr public/* docs/",
+    "build-w": "gatsby build --prefix-paths && cp public/* docs/",
     "format": "prettier --write \"src/**/*.{js,jsx,css,json}\"",
     "lint": "eslint --fix \"src/**/*.{js,jsx}\""
   },
