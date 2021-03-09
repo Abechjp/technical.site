@@ -1,5 +1,6 @@
 require("dotenv").config();
-const queries = require("./src/utils/algolia");
+//const queries = require("./src/utils/algolia");
+//行き詰まったらこれで確認　gatsby info
 const config = require("./config");
 const plugins = [
   'gatsby-plugin-sitemap',
@@ -50,6 +51,7 @@ const plugins = [
   },
 ];
 // check and add algolia
+/*
 if (config.header.search && config.header.search.enabled && config.header.search.algoliaAppId && config.header.search.algoliaAdminKey) {
   plugins.push({
     resolve: `gatsby-plugin-algolia`,
@@ -60,8 +62,9 @@ if (config.header.search && config.header.search.enabled && config.header.search
       chunkSize: 10000, // default: 1000
     }}
   )
-}
+}*/
 // check and add pwa functionality
+/*
 if (config.pwa && config.pwa.enabled && config.pwa.manifest) {
   plugins.push({
       resolve: `gatsby-plugin-manifest`,
@@ -75,7 +78,7 @@ if (config.pwa && config.pwa.enabled && config.pwa.manifest) {
   });
 } else {
   plugins.push('gatsby-plugin-remove-serviceworker');
-}
+}*/
 
 // check and remove trailing slash
 if (config.gatsby && !config.gatsby.trailingSlash) {
