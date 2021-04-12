@@ -2,7 +2,10 @@
 title: "マイグレーション 01"
 metaTitle: "Alibab Cloudによるマイグレーション"
 metaDescription: "Alibab Cloudによるマイグレーションを説明します"
+date: "2021-03-01"
+lastUpdate: "2021-03-01"
 ---
+
 
 ## Alibab Cloudによるマイグレーション 01
 

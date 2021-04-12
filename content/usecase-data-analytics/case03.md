@@ -2,6 +2,8 @@
 title: "Elasticsearchによる可視化"
 metaTitle: "Alibab Cloud Elasticsearchによる可視化"
 metaDescription: "Alibab Cloud Elasticsearchによる可視化"
+date: "2021-03-01"
+lastUpdate: "2021-03-01"
 ---
 
 ## Alibab Cloud Elasticsearchによる可視化

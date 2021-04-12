@@ -2,6 +2,8 @@
 title: "Security Best Practice"
 metaTitle: "Alibab Cloud Security系ベストプラクティス"
 metaDescription: "Alibab Cloud Security系ベストプラクティス"
+date: "2021-03-01"
+lastUpdate: "2021-03-01"
 ---
 
 ## Alibab Cloud Security系ベストプラクティス

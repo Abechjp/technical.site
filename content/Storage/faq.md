@@ -2,6 +2,8 @@
 title: "よくある質問"
 metaTitle: "Alibab Cloud Storage系でよくある質問をまとめています"
 metaDescription: "Alibab Cloud Storage系でよくある質問をまとめています"
+date: "2021-03-01"
+lastUpdate: "2021-03-01"
 ---
 
 ## Alibab Cloud Storage系でよくある質問

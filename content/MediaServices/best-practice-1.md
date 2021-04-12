@@ -2,7 +2,10 @@
 title: "Media Services Best Practice"
 metaTitle: "Alibab Cloud Media Services系ベストプラクティス"
 metaDescription: "Alibab Cloud Media Services系ベストプラクティス"
+date: "2021-03-01"
+lastUpdate: "2021-03-01"
 ---
+
 
 ## Alibab Cloud Media Services系ベストプラクティス
 

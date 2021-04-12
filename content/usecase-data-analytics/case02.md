@@ -2,6 +2,8 @@
 title: "DataLake analyticsで分析"
 metaTitle: "Alibab Cloud DataLake analyticsで分析"
 metaDescription: "Alibab Cloud DataLake analyticsで分析"
+date: "2021-03-01"
+lastUpdate: "2021-03-01"
 ---
 
 ## Alibab Cloud DataLake analyticsで分析

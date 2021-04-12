@@ -2,7 +2,10 @@
 title: "Networking & CDN Best Practice"
 metaTitle: "Alibab Cloud Networking_CDN系ベストプラクティス"
 metaDescription: "Alibab Cloud Networking_CDN系ベストプラクティス"
+date: "2021-03-01"
+lastUpdate: "2021-03-01"
 ---
+
 
 ## Alibab Cloud Networking_CDN系ベストプラクティス
 

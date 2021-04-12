@@ -2,6 +2,8 @@
 title: "Storage Best Practice"
 metaTitle: "Alibab Cloud Storage系ベストプラクティス"
 metaDescription: "Alibab Cloud Storage系ベストプラクティス"
+date: "2021-03-01"
+lastUpdate: "2021-03-01"
 ---
 
 ## Alibab Cloud Storage系ベストプラクティス
