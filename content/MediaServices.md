@@ -2,6 +2,8 @@
 title: "Media Services"
 metaTitle: "Alibab Cloud Media Services系プロダクトサービスを紹介します"
 metaDescription: "Alibab Cloud Media Services系プロダクトサービスを紹介します"
+date: "2021-03-01"
+lastUpdate: "2021-03-01"
 ---
 
 ## Alibab Cloud Media Services系プロダクト紹介

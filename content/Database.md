@@ -2,6 +2,8 @@
 title: "Database"
 metaTitle: "Alibab Cloud Database系プロダクトサービスを紹介します"
 metaDescription: "Alibab Cloud Database系プロダクトサービスを紹介します"
+date: "2021-03-01"
+lastUpdate: "2021-03-01"
 ---
 
 ## Alibab Cloud Database系プロダクト紹介

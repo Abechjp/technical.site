@@ -2,7 +2,10 @@
 title: "Database Best Practice"
 metaTitle: "Alibab Cloud Database系ベストプラクティス"
 metaDescription: "Alibab Cloud Database系ベストプラクティス"
+date: "2021-03-01"
+lastUpdate: "2021-03-01"
 ---
+
 
 ## Alibab Cloud Database系ベストプラクティス
 

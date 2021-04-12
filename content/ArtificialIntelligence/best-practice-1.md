@@ -2,7 +2,10 @@
 title: "Artificial Intelligence Best Practice"
 metaTitle: "Alibab Cloud ArtificialIntelligence系ベストプラクティス"
 metaDescription: "Alibab Cloud ArtificialIntelligence系ベストプラクティス"
+date: "2021-03-01"
+lastUpdate: "2021-03-01"
 ---
+
 
 ## Alibab Cloud ArtificialIntelligence系ベストプラクティス
 

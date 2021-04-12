@@ -2,6 +2,8 @@
 title: "Analytics Best Practice"
 metaTitle: "Alibab Cloud Analytics系ベストプラクティス"
 metaDescription: "Alibab Cloud Analytics系ベストプラクティス"
+date: "2021-03-01"
+lastUpdate: "2021-03-01"
 ---
 
 ## Alibab Cloud Analytics系ベストプラクティス

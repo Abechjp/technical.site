@@ -2,7 +2,10 @@
 title: "Terraformシナリオ - 02"
 metaTitle: "Alibab Cloud Terraformによるシナリオを紹介します"
 metaDescription: "Alibab Cloud Terraformによるシナリオを紹介します"
+date: "2021-03-01"
+lastUpdate: "2021-03-01"
 ---
+
 
 ## Terraformシナリオ - 02
 

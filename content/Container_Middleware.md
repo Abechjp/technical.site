@@ -2,6 +2,8 @@
 title: "Container & Middleware"
 metaTitle: "Alibab Cloud Container & Middleware系プロダクトサービスを紹介します"
 metaDescription: "Alibab Cloud Container & Middleware系プロダクトサービスを紹介します"
+date: "2021-03-01"
+lastUpdate: "2021-03-01"
 ---
 
 ## Alibab Cloud Container & Middleware系プロダクト紹介

@@ -2,6 +2,8 @@
 title: "プロダクトアドバイザリ"
 metaTitle: "Alibab Cloud プロダクトアドバイザリ"
 metaDescription: "Alibab Cloud プロダクトアドバイザリ"
+date: "2021-03-01"
+lastUpdate: "2021-03-01"
 ---
 
 ## プロダクトアドバイザリ

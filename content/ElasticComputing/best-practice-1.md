@@ -2,7 +2,10 @@
 title: "ElasticComputing Best Practice"
 metaTitle: "Alibab Cloud ElasticComputing系ベストプラクティス"
 metaDescription: "Alibab Cloud ElasticComputing系ベストプラクティス"
+date: "2021-03-01"
+lastUpdate: "2021-03-01"
 ---
+
 
 ## Alibab Cloud ElasticComputingベストプラクティス
 

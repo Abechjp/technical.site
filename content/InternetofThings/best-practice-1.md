@@ -2,7 +2,10 @@
 title: "Internet of Things Best Practice"
 metaTitle: "Alibab Cloud Internet of Things系ベストプラクティス"
 metaDescription: "Alibab Cloud Internet of Things系ベストプラクティス"
+date: "2021-03-01"
+lastUpdate: "2021-03-01"
 ---
+
 
 ## Alibab Cloud Internet of Things系ベストプラクティス
 

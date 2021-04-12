@@ -2,6 +2,8 @@
 title: "データ分析アプローチ"
 metaTitle: "Alibab Cloudによるデータ分析アプローチを紹介します"
 metaDescription: "Alibab Cloudによるデータ分析アプローチを紹介します"
+date: "2021-03-01"
+lastUpdate: "2021-03-01"
 ---
 
 ## Alibab Cloud によるデータ分析アプローチ

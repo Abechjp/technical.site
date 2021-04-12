@@ -2,6 +2,8 @@
 title: "Internet of Things"
 metaTitle: "Alibab Cloud Internet of Things系プロダクトサービスを紹介します"
 metaDescription: "Alibab Cloud Internet of Things系プロダクトサービスを紹介します"
+date: "2021-03-01"
+lastUpdate: "2021-03-01"
 ---
 
 ## Alibab Cloud Internet of Things系プロダクト紹介

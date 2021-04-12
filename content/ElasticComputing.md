@@ -2,6 +2,8 @@
 title: "ElasticComputing"
 metaTitle: "Alibab Cloud ElasticComputing系プロダクトサービスを紹介します"
 metaDescription: "Alibab Cloud ElasticComputing系プロダクトサービスを紹介します"
+date: "2021-03-01"
+lastUpdate: "2021-03-01"
 ---
 
 ## Alibab Cloud ElasticComputing系プロダクト紹介

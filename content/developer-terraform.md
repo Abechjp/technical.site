@@ -2,6 +2,8 @@
 title: "Terraform"
 metaTitle: "Alibab Cloud Terraformによる構築・運用について"
 metaDescription: "Alibab Cloud Terraformによる構築・運用について紹介します"
+date: "2021-03-01"
+lastUpdate: "2021-03-01"
 ---
 
 

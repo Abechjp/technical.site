@@ -2,7 +2,10 @@
 title: "Container & Middleware Best Practice"
 metaTitle: "Alibab Cloud Container & Middlewaren系ベストプラクティス"
 metaDescription: "Alibab Cloud Container & Middleware系ベストプラクティス"
+date: "2021-03-01"
+lastUpdate: "2021-03-01"
 ---
+
 
 ## Alibab Cloud Container & Middleware系ベストプラクティス
 

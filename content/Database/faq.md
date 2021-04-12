@@ -2,7 +2,10 @@
 title: "よくある質問"
 metaTitle: "Alibab Cloud Database系でよくある質問をまとめています"
 metaDescription: "Alibab Cloud Database系でよくある質問をまとめています"
+date: "2021-03-01"
+lastUpdate: "2021-03-01"
 ---
+
 
 ## Alibab Cloud Database系でよくある質問
 

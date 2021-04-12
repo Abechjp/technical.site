@@ -2,6 +2,8 @@
 title: "Networking & CDN"
 metaTitle: "Alibab Cloud Networking_CDN系プロダクトサービスを紹介します"
 metaDescription: "Alibab Cloud Networking_CDN系プロダクトサービスを紹介します"
+date: "2021-03-01"
+lastUpdate: "2021-03-01"
 ---
 
 ## Alibab Cloud Networking_CDN系プロダクト紹介
