@@ -1,7 +1,7 @@
 ### Checklist
 - [ ] `hugo server` command works fine locally.
 - [ ] Table layout looks as it should be.
-- [ ] In Japanse, it is written in "ですます調 
+- [ ] In Japanse, it is written in "ですます調
 - [ ] In Japanse, it ends with "。".
 - [ ] I've updated [CHANGELOG.md](CHANGELOG.md).
 - [ ] I've added meta-description. (when adding file).
