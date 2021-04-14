@@ -1,3 +1,4 @@
+/*
 query MyQuery {
   allMarkdownRemark(sort: {fields: frontmatter___title, order: ASC}) {
     totalCount
@@ -14,7 +15,9 @@ query MyQuery {
   }
 }
 
+*/
 
+/*
 query MyQuery($formatString: String = "YYYY/MM/DD") {
   allMarkdownRemark(limit: 1000, sort: {fields: frontmatter___date}) {
     edges {
@@ -28,10 +31,11 @@ query MyQuery($formatString: String = "YYYY/MM/DD") {
     }
   }
 }
-
+*/
 
 // -------------------------------------------
 
+/*
 {
   resolve: `gatsby-plugin-feed`,
   options: {
@@ -78,3 +82,6 @@ query MyQuery($formatString: String = "YYYY/MM/DD") {
     ],
   },
 },
+*/
+
+
