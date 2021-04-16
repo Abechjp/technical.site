@@ -1,6 +1,5 @@
 ## ToDo:
 
-
 * ALL
   - [ ] add search bar
   - [ ] add RSS feed
@@ -9,6 +8,9 @@
   - [ ] add GA
   - [ ] add gihub hook
   - [ ] add netlify
+  - [ ] add sns ボタン twitter
+  - [ ] add sns ボタン hatena
+  - [ ] add sns ボタン facebook
   - [ ] Changing from a development environment to an execution environment
   - [ ] Security Consultation and Review
 
