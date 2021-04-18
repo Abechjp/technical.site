@@ -8,6 +8,7 @@
   - [ ] add GA
   - [ ] add gihub hook
   - [ ] add netlify
+  - [ ] add サイトマップ https://takagi.blog/gatsby-starter-blog/   https://qiita.com/ShinKano/items/3cf3eef6320bc62181a3
   - [ ] add sns ボタン twitter
   - [ ] add sns ボタン hatena
   - [ ] add sns ボタン facebook
