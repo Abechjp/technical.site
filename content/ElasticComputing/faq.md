@@ -3,7 +3,7 @@ title: "よくある質問"
 metaTitle: "Alibab Cloud ElasticComputing系でよくある質問をまとめています"
 metaDescription: "Alibab Cloud ElasticComputing系でよくある質問をまとめています"
 date: "2021-03-01"
-lastUpdate: "2021-03-01"
+author: "Hironobu Ohara"
 ---
 
 

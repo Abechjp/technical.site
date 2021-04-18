@@ -3,7 +3,7 @@ title: "LogServiceでデータを収集アプローチ"
 metaTitle: "Alibab Cloud LogServiceでデータを収集アプローチ"
 metaDescription: "Alibab Cloud LogServiceでデータを収集アプローチ"
 date: "2021-03-01"
-lastUpdate: "2021-03-01"
+author: "Hironobu Ohara"
 ---
 
 ## Alibab Cloud LogServiceでデータを収集アプローチ

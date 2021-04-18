@@ -3,7 +3,7 @@ title: "ossutil"
 metaTitle: "Alibab Cloud ossutilについて紹介します"
 metaDescription: "Alibab Cloud ossutilについて紹介します"
 date: "2021-03-01"
-lastUpdate: "2021-03-01"
+author: "Hironobu Ohara"
 ---
 
 

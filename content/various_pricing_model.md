@@ -3,6 +3,7 @@ title: "料金体系 & 請求関連"
 metaTitle: "Alibab Cloud プロダクト料金体系 & 請求関連"
 metaDescription: "Alibab Cloud プロダクト料金体系 & 請求関連"
 date: "2021-03-01"
+author: "Hironobu Ohara"
 ---
 
 ## Alibab Cloud プロダクト料金体系 & 請求関連

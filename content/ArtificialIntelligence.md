@@ -1,11 +1,12 @@
 ---
-title: "ArtificialIntelligence"
-metaTitle: "Alibab Cloud ArtificialIntelligence系プロダクトサービスを紹介します"
-metaDescription: "Alibab Cloud ArtificialIntelligence系プロダクトサービスを紹介します"
+title: "AI系プロダクトサービス紹介"
+metaTitle: "AI系プロダクトサービス紹介"
+metaDescription: "Alibab CloudのAI系プロダクトサービスをご紹介します。"
 date: "2021-03-01"
-lastUpdate: "2021-03-01"
+author: "Hironobu Ohara"
 ---
-## Alibab Cloud ArtificialIntelligence系プロダクト紹介
+
+## AI系プロダクトサービス紹介
 
 
 # Heading H1

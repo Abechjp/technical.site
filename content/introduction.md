@@ -3,7 +3,7 @@ title: "はじめに"
 metaTitle: "はじめに"
 metaDescription: "SBクラウド、Alibaba Cloud、よくある質問などを紹介します"
 date: "2021-03-01"
-lastUpdate: "2021-03-01"
+author: "Hironobu Ohara"
 ---
 
 ## はじめに

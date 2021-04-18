@@ -1,12 +1,12 @@
 ---
-title: "Media Services"
-metaTitle: "Alibab Cloud Media Services系プロダクトサービスを紹介します"
-metaDescription: "Alibab Cloud Media Services系プロダクトサービスを紹介します"
+title: "メディアサービス系プロダクトサービス紹介"
+metaTitle: "メディアサービス系プロダクトサービス紹介"
+metaDescription: "Alibab Cloudのメディアサービス系プロダクトサービスをご紹介します。"
 date: "2021-03-01"
-lastUpdate: "2021-03-01"
+author: "Hironobu Ohara"
 ---
 
-## Alibab Cloud Media Services系プロダクト紹介
+## メディアサービス系プロダクトサービス紹介
 
 # Heading H1
 Heading 1 text

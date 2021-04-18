@@ -3,7 +3,7 @@ title: "tunnel"
 metaTitle: "Alibab Cloud tunnelについて紹介します"
 metaDescription: "Alibab Cloud tunnelについて紹介します"
 date: "2021-03-01"
-lastUpdate: "2021-03-01"
+author: "Hironobu Ohara"
 ---
 
 

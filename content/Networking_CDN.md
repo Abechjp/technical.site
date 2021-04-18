@@ -1,12 +1,12 @@
 ---
-title: "Networking & CDN"
-metaTitle: "Alibab Cloud Networking_CDN系プロダクトサービスを紹介します"
-metaDescription: "Alibab Cloud Networking_CDN系プロダクトサービスを紹介します"
+title: "ネットワーク＆CDN系プロダクトサービス紹介"
+metaTitle: "ネットワーク＆CDN系プロダクトサービス紹介"
+metaDescription: "Alibab Cloudのネットワーク＆CDN系プロダクトサービスをご紹介します。"
 date: "2021-03-01"
-lastUpdate: "2021-03-01"
+author: "Hironobu Ohara"
 ---
 
-## Alibab Cloud Networking_CDN系プロダクト紹介
+## ネットワーク＆CDN系プロダクトサービス紹介
 
 # Heading H1
 Heading 1 text

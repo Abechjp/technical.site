@@ -1,12 +1,13 @@
 ---
-title: "ElasticComputing"
-metaTitle: "Alibab Cloud ElasticComputing系プロダクトサービスを紹介します"
-metaDescription: "Alibab Cloud ElasticComputing系プロダクトサービスを紹介します"
+title: "仮想コンピューティング系プロダクトサービス紹介"
+metaTitle: "仮想コンピューティング系プロダクトサービス紹介"
+metaDescription: "Alibab Cloudの仮想コンピューティング系プロダクトサービスをご紹介します。"
 date: "2021-03-01"
-lastUpdate: "2021-03-01"
+author: "Hironobu Ohara"
 ---
 
-## Alibab Cloud ElasticComputing系プロダクト紹介
+
+## 仮想コンピューティング系プロダクトサービス紹介
 
 # Heading H1
 Heading 1 text

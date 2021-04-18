@@ -1,12 +1,13 @@
 ---
-title: "Internet of Things"
-metaTitle: "Alibab Cloud Internet of Things系プロダクトサービスを紹介します"
-metaDescription: "Alibab Cloud Internet of Things系プロダクトサービスを紹介します"
+title: "IoT系プロダクトサービス紹介"
+metaTitle: "IoT系プロダクトサービス紹介"
+metaDescription: "Alibab CloudのInternet of Things系プロダクトサービスをご紹介します。"
 date: "2021-03-01"
-lastUpdate: "2021-03-01"
+author: "Hironobu Ohara"
 ---
 
-## Alibab Cloud Internet of Things系プロダクト紹介
+
+## IoT系プロダクトサービス紹介
 
 # Heading H1
 Heading 1 text

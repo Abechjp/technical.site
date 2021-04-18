@@ -1,12 +1,13 @@
 ---
-title: "Database"
-metaTitle: "Alibab Cloud Database系プロダクトサービスを紹介します"
-metaDescription: "Alibab Cloud Database系プロダクトサービスを紹介します"
+title: "データベース系プロダクトサービス紹介"
+metaTitle: "データベース系プロダクトサービス紹介"
+metaDescription: "Alibab Cloudのデータベース系プロダクトサービスをご紹介します。"
 date: "2021-03-01"
-lastUpdate: "2021-03-01"
+author: "Hironobu Ohara"
 ---
 
-## Alibab Cloud Database系プロダクト紹介
+
+## データベース系プロダクトサービス紹介
 
 
 # Heading H1

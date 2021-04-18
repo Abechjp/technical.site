@@ -1,12 +1,12 @@
 ---
-title: "Storage"
-metaTitle: "Alibab Cloud Storage系プロダクトサービスを紹介します"
-metaDescription: "Alibab Cloud Storage系プロダクトサービスを紹介します"
+title: "ストレージ系プロダクトサービス紹介"
+metaTitle: "ストレージ系プロダクトサービス紹介"
+metaDescription: "Alibab Cloudのストレージ系プロダクトサービスをご紹介します。"
 date: "2021-03-01"
-lastUpdate: "2021-03-01"
+author: "Hironobu Ohara"
 ---
 
-## Alibab Cloud Storage系プロダクト紹介
+## ストレージ系プロダクトサービス紹介
 
 # Heading H1
 Heading 1 text
