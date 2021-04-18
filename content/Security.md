@@ -1,5 +1,5 @@
 ---
-title: "セキュリティ系プロダクトサービス紹介"
+title: "セキュリティ"
 metaTitle: "セキュリティ系プロダクトサービス紹介"
 metaDescription: "Alibab Cloudのセキュリティ系プロダクトサービスをご紹介します。"
 date: "2021-03-01"

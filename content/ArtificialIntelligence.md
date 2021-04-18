@@ -1,5 +1,5 @@
 ---
-title: "AI系プロダクトサービス紹介"
+title: "AI（Artificial Intelligence）"
 metaTitle: "AI系プロダクトサービス紹介"
 metaDescription: "Alibab CloudのAI系プロダクトサービスをご紹介します。"
 date: "2021-03-01"

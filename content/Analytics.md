@@ -1,5 +1,5 @@
 ---
-title: "データ分析系プロダクトサービス紹介"
+title: "データ分析"
 metaTitle: "データ分析系プロダクトサービス紹介"
 metaDescription: "Alibab Cloudのデータ分析系プロダクトサービスをご紹介します。"
 date: "2021-03-01"

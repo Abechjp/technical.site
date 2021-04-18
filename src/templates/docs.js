@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
 import MDXRenderer from 'gatsby-plugin-mdx/mdx-renderer';
+import Layout from '../components/layout';
+import Link from '../components/link';
 
-import { Layout, Link } from '$components';
 import NextPrevious from '../components/NextPrevious';
 import config from '../../config';
 import { Edit, StyledHeading, StyledMainWrapper, Badge } from '../components/styles/Docs';

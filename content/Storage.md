@@ -1,5 +1,5 @@
 ---
-title: "ストレージ系プロダクトサービス紹介"
+title: "ストレージ"
 metaTitle: "ストレージ系プロダクトサービス紹介"
 metaDescription: "Alibab Cloudのストレージ系プロダクトサービスをご紹介します。"
 date: "2021-03-01"

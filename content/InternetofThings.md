@@ -1,5 +1,5 @@
 ---
-title: "IoT系プロダクトサービス紹介"
+title: "IoT（Internet of Things）"
 metaTitle: "IoT系プロダクトサービス紹介"
 metaDescription: "Alibab CloudのInternet of Things系プロダクトサービスをご紹介します。"
 date: "2021-03-01"

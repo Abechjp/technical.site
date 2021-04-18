@@ -1,5 +1,5 @@
 ---
-title: "ネットワーク＆CDN系プロダクトサービス紹介"
+title: "ネットワーク & CDN"
 metaTitle: "ネットワーク＆CDN系プロダクトサービス紹介"
 metaDescription: "Alibab Cloudのネットワーク＆CDN系プロダクトサービスをご紹介します。"
 date: "2021-03-01"
