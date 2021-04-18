@@ -73,7 +73,7 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
       }
     `}
     render={data => {
-  
+
       const twitter = require('./images/twitter.svg');
 
       const discordBrandsBlock = require('./images/discord-brands-block.svg');
