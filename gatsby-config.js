@@ -1,5 +1,8 @@
 require("dotenv").config();
+
 const queries = require("./src/utils/algolia");
+
+const path = require('path');
 
 const config = require("./config");
 
@@ -41,11 +44,11 @@ const plugins = [
       serialize: ({ query: { site, allMarkdownRemark } }) => {
         return allMarkdownRemark.edges.map(edge => {
           return Object.assign({}, edge.node.frontmatter, {
-            description: edge.node.excerpt,
+            description: edge.node.frontmatter.metaDescription,
             date: edge.node.frontmatter.date,
-            url: site.siteMetadata.siteUrl + edge.node.fields.slug,
-            guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
-            custom_elements: [{ "content:encoded": edge.node.html }],
+            url: site.siteMetadata.siteUrl + "/" + path.basename(edge.node.fileAbsolutePath, '.md'),
+            guid: site.siteMetadata.siteUrl + "/" + path.basename(edge.node.fileAbsolutePath, '.md'),
+            custom_elements: [{ "content:encoded": edge.node.excerpt }],
             })
           })
         },
@@ -56,13 +59,14 @@ const plugins = [
             ) {
               edges {
                 node {
-                  excerpt
+                  excerpt(truncate: true, pruneLength: 280)
                   html
-                  fields { slug }
                   frontmatter {
                     title
-                    date
+                    date(formatString: "YYYY/MM/DD")
+                    metaDescription
                   }
+                  fileAbsolutePath
                 }
               }
             }
