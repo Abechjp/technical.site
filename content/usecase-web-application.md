@@ -3,7 +3,6 @@ title: "Webアプリケーション活用パターン"
 metaTitle: "Alibab CloudによるWebアプリケーション活用パターン"
 metaDescription: "Alibab CloudによるWebアプリケーション活用パターンを説明します"
 date: "2021-03-01"
-lastUpdate: "2021-03-01"
 ---
 
 ## Alibab CloudによるWebアプリケーション活用パターン

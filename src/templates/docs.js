@@ -6,7 +6,7 @@ import MDXRenderer from 'gatsby-plugin-mdx/mdx-renderer';
 import { Layout, Link } from '$components';
 import NextPrevious from '../components/NextPrevious';
 import config from '../../config';
-import { Edit, StyledHeading, StyledMainWrapper } from '../components/styles/Docs';
+import { Edit, StyledHeading, StyledMainWrapper, Badge } from '../components/styles/Docs';
 
 const forcedNavOrder = config.sidebar.forcedNavOrder;
 
@@ -92,6 +92,7 @@ export default class MDXRuntimeTest extends Component {
         </Helmet>
         <div className={'titleWrapper'}>
           <StyledHeading>{mdx.fields.title}</StyledHeading>
+          <Badge>作成日:{mdx.frontmatter.date}</Badge>
           <Edit className={'mobileView'}>
             {docsLocation && (
               <Link className={'gitBtn'} to={`${docsLocation}/${mdx.parent.relativePath}`}>
@@ -133,6 +134,7 @@ export const pageQuery = graphql`
         }
       }
       frontmatter {
+        date
         metaTitle
         metaDescription
       }

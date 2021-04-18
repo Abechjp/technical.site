@@ -75,3 +75,16 @@ export const StyledMainWrapper = styled.div`
     padding: 0 15px;
   }
 `;
+
+export const Badge = styled.span`
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 140;
+  line-height: 1.6;
+  text-align: left;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-radius: 0.25rem;
+  color: #fff;
+  background-color: #17a2b8;
+`;

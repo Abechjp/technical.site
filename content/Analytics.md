@@ -3,7 +3,6 @@ title: "Analytics"
 metaTitle: "Alibab Cloud Analytics系プロダクトサービスを紹介します"
 metaDescription: "Alibab Cloud Analytics系プロダクトサービスを紹介します"
 date: "2021-03-01"
-lastUpdate: "2021-03-01"
 ---
 
 ## Alibab Cloud Analytics系プロダクト紹介

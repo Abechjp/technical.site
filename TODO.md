@@ -2,7 +2,9 @@
 
 * ALL
   - [ ] add search bar
-  - [ ] add RSS feed
+  - [x] add RSS feed
+  - [ ] add 404
+  - [x] add Update information
   - [ ] add SEO
   - [ ] Modify mdx conversion
   - [ ] add GA
