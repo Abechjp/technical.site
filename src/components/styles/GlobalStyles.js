@@ -158,7 +158,7 @@ export const baseStyles = css`
   }
   .searchInput {
     width: 100%;
-    background-color: rgba(13,25,130,.1) !important;
+    background-color: rgba(13,25,130,.90) !important;
     border-width: 0 !important;
     color: #C2C2C2;
     padding: 10px;
