@@ -1,13 +1,13 @@
 ## ToDo:
 
 * ALL
-  - [ ] add search bar
+  - [x] add search bar
   - [x] add RSS feed
-  - [ ] add 404
+  - [x] add 404
   - [x] add Update information
   - [ ] add SEO
-  - [ ] Modify mdx conversion
-  - [ ] add GA
+  - [x] Modify mdx conversion
+  - [x] add GA
   - [ ] add gihub hook
   - [ ] add netlify
   - [ ] add サイトマップ https://takagi.blog/gatsby-starter-blog/   https://qiita.com/ShinKano/items/3cf3eef6320bc62181a3
