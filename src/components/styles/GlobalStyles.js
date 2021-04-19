@@ -158,7 +158,7 @@ export const baseStyles = css`
   }
   .searchInput {
     width: 100%;
-    background-color: rgba(28,211,198,.12) !important;
+    background-color: rgba(13,25,130,.1) !important;
     border-width: 0 !important;
     color: #C2C2C2;
     padding: 10px;
@@ -320,7 +320,7 @@ export const baseStyles = css`
     border: 0 !important;
     background-color: rgb(245, 247, 249); /* !important; */
   }
-  
+
   blockquote {
     color: rgb(116, 129, 141);
     margin: 0px 0px 24px;
