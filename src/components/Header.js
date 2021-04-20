@@ -76,9 +76,9 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
 
       const twitter = require('./images/twitter.svg');
 
-      const discordBrandsBlock = require('./images/discord-brands-block.svg');
+      //const discordBrandsBlock = require('./images/discord-brands-block.svg');
 
-      const twitterBrandsBlock = require('./images/twitter-brands-block.svg');
+      //const twitterBrandsBlock = require('./images/twitter-brands-block.svg');
 
       const {
         site: {

@@ -342,8 +342,8 @@ export const baseStyles = css`
     border-radius: 4px;
     border: solid 1px #d1d2d3;
     background-color: #f1f5f8;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     padding-top: 2px;
     margin-left: 8px;
     display: flex;
@@ -619,7 +619,7 @@ export const baseStyles = css`
     font-size: 16px;
     padding: 10px 0px;
     padding-left: 15px;
-    max-height: 40px;
+    max-height: 60px;
   }
   .githubBtn span span {
     display: flex;
