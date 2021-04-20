@@ -7,9 +7,10 @@
   - [x] add Update information
   - [ ] add SEO
   - [x] Modify mdx conversion
-  - [x] add GA
+  - [ ] add GA
   - [ ] add gihub hook
   - [ ] add netlify
+  - [ ] LightHouse対応
   - [ ] add サイトマップ https://takagi.blog/gatsby-starter-blog/   https://qiita.com/ShinKano/items/3cf3eef6320bc62181a3
   - [ ] add sns ボタン twitter
   - [ ] add sns ボタン hatena
