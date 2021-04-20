@@ -6,18 +6,20 @@
   - [x] add 404
   - [x] add Update information
   - [x] add PWA
-  - [ ] add SEO
+  - [ ] add SEO　一部は後日対応（優先度高くない）　https://reffect.co.jp/react/gatsby-react-helmet-seo
   - [x] Modify mdx conversion
-  - [ ] add GA
+  - [×] add GA
   - [ ] add gihub hook
   - [ ] add netlify
-  - [ ] LightHouse対応
-  - [ ] add サイトマップ https://takagi.blog/gatsby-starter-blog/   https://qiita.com/ShinKano/items/3cf3eef6320bc62181a3
+  - [×] LightHouse対応  https://zenn.dev/notofu/articles/d84d217244d02a
+  - [×] add サイトマップ https://takagi.blog/gatsby-starter-blog/   https://qiita.com/ShinKano/items/3cf3eef6320bc62181a3
   - [ ] add sns ボタン twitter
   - [ ] add sns ボタン hatena
   - [ ] add sns ボタン facebook
   - [ ] Changing from a development environment to an execution environment
   - [ ] Security Consultation and Review
+  - [ ] 固定ページ作成（ただし優先度Low）　https://gotohayato.com/content/502/#tips-04-%E5%9B%BA%E5%AE%9A%E3%83%9A%E3%83%BC%E3%82%B8%E3%82%92%E4%BD%9C%E3%82%8A%E3%81%9F%E3%81%84
+  - [ ] 検索エンジンの変更 https://fabiorosado.dev/blog/add-search-mdx/   https://github.com/gatsby-contrib/gatsby-plugin-elasticlunr-search/blob/master/example/src/components/search.js https://qiita.com/atomyah/items/b772a63fc70bf8e7dbdd#js-search%E3%81%A7%E5%AE%9F%E8%A3%85 https://ichinari.work/JavaScript_GatsbyJS_20191110
 
 
 * introduction
