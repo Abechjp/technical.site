@@ -43,9 +43,10 @@ const config = {
     search: {
       enabled: true,
       indexName: 'technical.site.algolia',
-      algoliaAppId: process.env.GATSBY_ALGOLIA_APP_ID,
-      algoliaSearchKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
-      algoliaAdminKey: process.env.ALGOLIA_ADMIN_KEY,
+      algoliaAppId: "30W9NDLS74",
+      algoliaSearchKey: "674bf7246af6173941be756c2140d3e4",
+      algoliaAdminKey: "b7246a81dcaccffe5979dd4aa9155f91",
+
     },
   },
   sidebar: {
