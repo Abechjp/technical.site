@@ -2,7 +2,7 @@ const config = {
   gatsby: {
     pathPrefix: '/technical.site/',
     siteUrl: 'https://ohiro18.github.io/technical.site/',
-    gaTrackingId: null,
+    gaTrackingId: 'UA-85904527-10',
     trailingSlash: false,
   },
   header: {
@@ -101,10 +101,10 @@ const config = {
     favicon: 'https://www.sbcloud.co.jp/icon/favicon',
   },
   pwa: {
-    enabled: false, // disabling this will also remove the existing service worker.
+    enabled: true, // disabling this will also remove the existing service worker.
     manifest: {
-      name: 'Gatsby Gitbook Starter',
-      short_name: 'GitbookStarter',
+      name: 'SBC technical.site',
+      short_name: 'SBC-tech.site',
       start_url: '/',
       background_color: '#6b37bf',
       theme_color: '#6b37bf',

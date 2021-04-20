@@ -5,6 +5,7 @@
   - [x] add RSS feed
   - [x] add 404
   - [x] add Update information
+  - [x] add PWA
   - [ ] add SEO
   - [x] Modify mdx conversion
   - [ ] add GA
