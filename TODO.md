@@ -13,6 +13,7 @@
   - [ ] add netlify
   - [×] LightHouse対応  https://zenn.dev/notofu/articles/d84d217244d02a
   - [×] add サイトマップ https://takagi.blog/gatsby-starter-blog/   https://qiita.com/ShinKano/items/3cf3eef6320bc62181a3
+  - [×] 構成変更
   - [ ] add sns ボタン twitter
   - [ ] add sns ボタン hatena
   - [ ] add sns ボタン facebook
