@@ -20,25 +20,32 @@ const config = {
 		        </li>
             <li>
         <a href="https://www.facebook.com/SBCloud/" target="_blank" rel="noopener">
-          <div class="twitterBtn">
-            <img src='https://raw.githubusercontent.com/ohiro18/technical.site/master/src/components/images/facebook.svg' alt={'Twitter'}/>
+          <div class="facebookBtn">
+            <img src='https://raw.githubusercontent.com/ohiro18/technical.site/master/src/components/images/facebook.svg' alt={'facebook'}/>
           </div>
         </a>
       </li>
       <li>
         <a href="https://www.youtube.com/channel/UCLI7MTGFxKxjsEUH-oNvy8w" target="_blank" rel="noopener">
-          <div class="twitterBtn">
-            <img src='https://raw.githubusercontent.com/ohiro18/technical.site/master/src/components/images/youtube.svg' alt={'Twitter'}/>
+          <div class="youtubeBtn">
+            <img src='https://raw.githubusercontent.com/ohiro18/technical.site/master/src/components/images/youtube.svg' alt={'youtube'}/>
           </div>
         </a>
       </li>
       <li>
 		    <a href="https://www.slideshare.net/sbcloud" target="_blank" rel="noopener">
-		      <div class="twitterBtn">
-		        <img src='https://raw.githubusercontent.com/ohiro18/technical.site/master/src/components/images/file-ppt.svg' alt={'Twitter'}/>
+		      <div class="slideshareBtn">
+		        <img src='https://raw.githubusercontent.com/ohiro18/technical.site/master/src/components/images/file-ppt.svg' alt={'slideshare'}/>
 		      </div>
 		    </a>
-		  </li>`,
+		  </li>
+      <li>
+      <a href="https://ohiro18.github.io/technical.site/rss.xml" target="_blank" rel="noopener">
+        <div class="rssBtn">
+          <img src='https://raw.githubusercontent.com/ohiro18/technical.site/master/src/components/images/rss.svg' alt={'RSS'}/>
+        </div>
+      </a>
+    </li>`,
     links: [{ text: '', link: '' }],
     search: {
       enabled: true,
