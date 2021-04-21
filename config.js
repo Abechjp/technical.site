@@ -20,29 +20,29 @@ const config = {
 		        </li>
             <li>
         <a href="https://www.facebook.com/SBCloud/" target="_blank" rel="noopener">
-          <div class="facebookBtn">
-            <img src='https://raw.githubusercontent.com/ohiro18/technical.site/master/src/components/images/facebook.svg' alt={'facebook'}/>
+          <div class="twitterBtn">
+            <img src='https://raw.githubusercontent.com/ohiro18/technical.site/master/src/components/images/facebook.svg' alt={'Twitter'}/>
           </div>
         </a>
       </li>
       <li>
         <a href="https://www.youtube.com/channel/UCLI7MTGFxKxjsEUH-oNvy8w" target="_blank" rel="noopener">
-          <div class="youtubeBtn">
-            <img src='https://raw.githubusercontent.com/ohiro18/technical.site/master/src/components/images/youtube.svg' alt={'youtube'}/>
+          <div class="twitterBtn">
+            <img src='https://raw.githubusercontent.com/ohiro18/technical.site/master/src/components/images/youtube.svg' alt={'Twitter'}/>
           </div>
         </a>
       </li>
       <li>
 		    <a href="https://www.slideshare.net/sbcloud" target="_blank" rel="noopener">
-		      <div class="slideshareBtn">
-		        <img src='https://raw.githubusercontent.com/ohiro18/technical.site/master/src/components/images/file-ppt.svg' alt={'slideshare'}/>
+		      <div class="twitterBtn">
+		        <img src='https://raw.githubusercontent.com/ohiro18/technical.site/master/src/components/images/file-ppt.svg' alt={'Twitter'}/>
 		      </div>
 		    </a>
 		  </li>
       <li>
       <a href="https://ohiro18.github.io/technical.site/rss.xml" target="_blank" rel="noopener">
-        <div class="rssBtn">
-          <img src='https://raw.githubusercontent.com/ohiro18/technical.site/master/src/components/images/rss.svg' alt={'RSS'}/>
+        <div class="twitterBtn">
+          <img src='https://raw.githubusercontent.com/ohiro18/technical.site/master/src/components/images/rss.svg' alt={'Twitter'}/>
         </div>
       </a>
     </li>`,
@@ -104,7 +104,7 @@ const config = {
     enabled: true, // disabling this will also remove the existing service worker.
     manifest: {
       name: 'SBC technical.site',
-      short_name: 'SBC-tech.site',
+      short_name: 'SBC-technical.site',
       start_url: '/',
       background_color: '#6b37bf',
       theme_color: '#6b37bf',
@@ -112,7 +112,7 @@ const config = {
       crossOrigin: 'use-credentials',
       icons: [
         {
-          src: 'src/pwa-512.png',
+          src: 'https://raw.githubusercontent.com/ohiro18/technical.site/master/src/pwa-512.png',
           sizes: `512x512`,
           type: `image/png`,
         },
