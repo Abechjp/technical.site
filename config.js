@@ -112,7 +112,7 @@ const config = {
       crossOrigin: 'use-credentials',
       icons: [
         {
-          src: 'https://raw.githubusercontent.com/ohiro18/technical.site/master/src/pwa-512.png',
+          src: '/src/pwa-512.png',
           sizes: `512x512`,
           type: `image/png`,
         },
