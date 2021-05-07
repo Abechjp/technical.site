@@ -1,3 +1,8 @@
+## init系
+```
+npm install --save gatsby-plugin-feed
+```
+
 ##
 ```
 npm update
@@ -6,6 +11,22 @@ npm update
 ###
 ```
 rd ./.cache -Recurse
+```
+
+```
+rd ./public/* -Recurse
+```
+
+```
+rd ./node_modules -Recurse
+```
+
+```
+rd package-lock.json
+```
+
+```
+rd ./.cache -Recurse ; rd ./public/* -Recurse ; rd ./node_modules -Recurse ; rd package-lock.json ; npm install ; gatsby clean
 ```
 
 
