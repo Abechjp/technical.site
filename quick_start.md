@@ -1,6 +1,9 @@
 ## init系
 ```
+npm install --save gatsby-cli
+npm install --save styled-icons
 npm install --save gatsby-plugin-feed
+npm install --save react-copy-to-clipboard
 ```
 
 ##
@@ -80,6 +83,6 @@ rd ./.cache -Recurse ; gatsby clean ; gatsby build --prefix-paths ; cp src/compo
 
 ## github連携
 ```
-git add *; git commit -m 'testing build'; git push
+git add *; git commit -m 'npm依存関係の変更'; git push
 ```
 

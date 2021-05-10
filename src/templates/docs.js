@@ -2,10 +2,12 @@ import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
 import MDXRenderer from 'gatsby-plugin-mdx/mdx-renderer';
+import styled from '@emotion/styled';
 import Layout from '../components/layout';
 import Link from '../components/link';
 
 import NextPrevious from '../components/NextPrevious';
+import SubscribeNewsletter from '../components/SubscribeNewsletter';
 import config from '../../config';
 import { Edit, StyledHeading, StyledMainWrapper, Badge } from '../components/styles/Docs';
 
@@ -102,9 +104,10 @@ export default class MDXRuntimeTest extends Component {
             )}
           </Edit>
         </div>
-        <StyledMainWrapper>
+        <div className={'mainWrapper'}>
           <MDXRenderer>{mdx.body}</MDXRenderer>
-        </StyledMainWrapper>
+          <SubscribeNewsletter title={mdx.fields.title} canonicalUrl={canonicalUrl} />
+        </div>
         <div className={'addPaddTopBottom'}>
           <NextPrevious mdx={mdx} nav={nav} />
         </div>
