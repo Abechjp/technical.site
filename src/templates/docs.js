@@ -3,15 +3,54 @@ import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
 import MDXRenderer from 'gatsby-plugin-mdx/mdx-renderer';
 import styled from '@emotion/styled';
-import Layout from '../components/layout';
-import Link from '../components/link';
-
+import { Layout, Link } from '../components';
 import NextPrevious from '../components/NextPrevious';
 import SubscribeNewsletter from '../components/SubscribeNewsletter';
+import '../components/styles.css';
 import config from '../../config';
-import { Edit, StyledHeading, StyledMainWrapper, Badge } from '../components/styles/Docs';
+import gitHub from '../components/images/github.svg';
 
 const forcedNavOrder = config.sidebar.forcedNavOrder;
+
+const Badge = styled.span`
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 140;
+  line-height: 1.6;
+  text-align: left;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-radius: 0.25rem;
+  color: #fff;
+  background-color: #17a2b8;
+`;
+
+
+const Edit = styled('div')`
+  padding: 1rem 1.5rem;
+  text-align: right;
+
+  a {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1em;
+    text-decoration: none;
+    color: #555;
+    border: 1px solid rgb(211, 220, 228);
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 0.2s ease-out 0s;
+    text-decoration: none;
+    color: rgb(36, 42, 49);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(116, 129, 141, 0.1) 0px 1px 1px 0px;
+    height: 30px;
+    padding: 5px 16px;
+    &:hover {
+      background-color: rgb(245, 247, 249);
+    }
+  }
+`;
 
 export default class MDXRuntimeTest extends Component {
   render() {
@@ -28,15 +67,13 @@ export default class MDXRuntimeTest extends Component {
       },
     } = data;
 
-    const gitHub = require('../components/images/github.svg');
-
     const navItems = allMdx.edges
       .map(({ node }) => node.fields.slug)
-      .filter(slug => slug !== '/')
+      .filter((slug) => slug !== '/')
       .sort()
       .reduce(
         (acc, cur) => {
-          if (forcedNavOrder.find(url => url === cur)) {
+          if (forcedNavOrder.find((url) => url === cur)) {
             return { ...acc, [cur]: [cur] };
           }
 
@@ -46,7 +83,7 @@ export default class MDXRuntimeTest extends Component {
             prefix = prefix + '/';
           }
 
-          if (prefix && forcedNavOrder.find(url => url === `/${prefix}`)) {
+          if (prefix && forcedNavOrder.find((url) => url === `/${prefix}`)) {
             return { ...acc, [`/${prefix}`]: [...acc[`/${prefix}`], cur] };
           } else {
             return { ...acc, items: [...acc.items, cur] };
@@ -60,7 +97,7 @@ export default class MDXRuntimeTest extends Component {
         return acc.concat(navItems[cur]);
       }, [])
       .concat(navItems.items)
-      .map(slug => {
+      .map((slug) => {
         if (slug) {
           const { node } = allMdx.edges.find(({ node }) => node.fields.slug === slug);
 
@@ -79,6 +116,8 @@ export default class MDXRuntimeTest extends Component {
       config.gatsby.pathPrefix !== '/' ? canonicalUrl + config.gatsby.pathPrefix : canonicalUrl;
     canonicalUrl = canonicalUrl + mdx.fields.slug;
 
+    // frontmatter canonical takes precedence
+    canonicalUrl = mdx.frontmatter.canonicalUrl ? mdx.frontmatter.canonicalUrl : canonicalUrl;
     return (
       <Layout {...this.props}>
         <Helmet>
@@ -94,7 +133,7 @@ export default class MDXRuntimeTest extends Component {
           <link rel="canonical" href={canonicalUrl} />
         </Helmet>
         <div className={'titleWrapper'}>
-          <StyledHeading>{mdx.fields.title}</StyledHeading>
+          <h1 className={'title'}>{mdx.fields.title}</h1>
           <Badge>作成日:{mdx.frontmatter.date}</Badge>
           <Edit className={'mobileView'}>
             {docsLocation && (
@@ -141,6 +180,7 @@ export const pageQuery = graphql`
         date
         metaTitle
         metaDescription
+        canonicalUrl
       }
     }
     allMdx {

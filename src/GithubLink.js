@@ -1,5 +1,7 @@
 import React from 'react';
-const githubIcon = require('https://raw.githubusercontent.com/ohiro18/technical.site/master/src/components/images/github.png');
+import githubIcon from './components/images/github.svg';
+
+import './components/styles.css';
 
 const GithubLink = ({ link, text }) => {
   return (
@@ -11,4 +13,3 @@ const GithubLink = ({ link, text }) => {
 };
 
 export default GithubLink;
-

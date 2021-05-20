@@ -1,18 +1,13 @@
 import React, { Fragment, useState, useEffect } from 'react';
-// eslint-disable-next-line import/no-unresolved
 import { CopyToClipboard } from 'react-copy-to-clipboard';
-// eslint-disable-next-line import/no-unresolved
 import './floatingStyles.scss';
 // import FloatingSubscribe from './FloatingSubscribe'
 import IconHover from './IconHover';
-// eslint-disable-next-line import/no-unresolved
 import closeSubscribe from './images/close-subscribe.svg';
 
 import pocketsImg from './images/pockets-share.svg';
 
 import copyImg from './images/copy-share.svg';
-
-import whatsappImg from './images/whatsapp-share.svg';
 
 import twitterImg from './images/twitter-sahre.svg';
 
@@ -22,30 +17,23 @@ import pocketsHoverImg from './images/pockets-share-hover.svg';
 
 import copyHoverImg from './images/copy-share-hover.svg';
 
-import whatsappHoverImg from './images/whatsapp-share-hover.svg';
-
 import twitterHoverImg from './images/twitter-sahre-hover.svg';
+
+import facebookImg from './images/facebook.svg';
+
+import hatenaImg from './images/hatenabookmark-logomark.svg';
 
 import linkedinHoverImg from './images/linkedin-share-hover.svg';
 
-import mailHoverImg from './images/mail-share-hover.svg';
+import alibabacloud from './images/alibabacloud.svg';
 
-import hasuraGray from './images/hasura-gray.svg';
+import alibabacloudGray from './images/alibabacloudGray.svg';
 
-import hasuraBlue from './images/hasura-blue.svg';
 
 const SubscribeNewsletter = ({ title, canonicalUrl }) => {
   const [isCopied, setIsCopiedToggle] = useState(false);
 
-  const [hideNewsletter, setHideNewsletter] = useState(false);
-
-  const [isHasuraCloud, setIsHasuraCloud] = useState(false);
-
-  /*
-  const handleNewsletterClose = () => {
-    setHideNewsletter(true);
-  };
-  */
+  const [isAlibabaCloud, setisAlibabaCloud] = useState(false);
 
   const onCopy = () => {
     setIsCopiedToggle(true);
@@ -80,18 +68,17 @@ const SubscribeNewsletter = ({ title, canonicalUrl }) => {
   return (
     <Fragment>
       <div id="floating-subscribe" className="floatingSubscribeVisible">
-        {/* <FloatingSubscribe handleNewsletterClose={handleNewsletterClose} hideNewsletter={hideNewsletter} location = {location} /> */}
-        {!isHasuraCloud ? (
+        {!isAlibabaCloud ? (
           <div className="floating-subscribe-wrapper mt-16">
             <div
               role="button"
               tabIndex="0"
               className="floating-subscribe-close"
               onClick={() => {
-                setIsHasuraCloud(true);
+                setisAlibabaCloud(true);
               }}
               onKeyDown={() => {
-                setIsHasuraCloud(true);
+                setisAlibabaCloud(true);
               }}
             >
               <img src={closeSubscribe} alt="Close" />
@@ -109,14 +96,11 @@ const SubscribeNewsletter = ({ title, canonicalUrl }) => {
         ) : null}
       </div>
       <div className="floatingShareWrapper">
-        {hideNewsletter ? (
-          <div className="shareIcon" role="button" tabIndex="0" onClick={() => setHideNewsletter(false)} onKeyDown={() => setHideNewsletter(false)}>
-            <IconHover baseImgSrc={mailHoverImg} hoverImgSrc={mailHoverImg} altText="Mail" />
-          </div>
-        ) : null}
         <a
           className="shareIcon"
           href={`https://getpocket.com/save?url=${canonicalUrl}`}
+          target="_blank"
+          rel="nofollow noopener noreferrer"
           data-save-url={`${canonicalUrl}`}
           data-pocket-count="vertical"
           data-pocket-align="left"
@@ -131,21 +115,27 @@ const SubscribeNewsletter = ({ title, canonicalUrl }) => {
           </div>
         </CopyToClipboard>
         <a
-          className="shareIcon"
-          href={`https://wa.me/?text=${canonicalUrl}`}
-          data-action="share/whatsapp/share"
-          /*
-          onFocus={() => setIsMouseOver(!isMouseOver)}
-          onBlur={() => setIsMouseOver(!isMouseOver)}
-          */
+         className="HatenaShareButton"
+         href={`http://b.hatena.ne.jp/add?mode=confirm&url=${canonicalUrl}+&title=${title}`}
+         target="_blank"
+         rel="nofollow noopener noreferrer"
         >
-          <IconHover baseImgSrc={whatsappImg} hoverImgSrc={whatsappHoverImg} altText="Whatsapp" />
+          <IconHover baseImgSrc={hatenaImg} hoverImgSrc={hatenaImg} altText="Hatena" />
+        </a>
+
+        <a
+          className="shareIcon"
+          href={`https://www.facebook.com/sharer/sharer.php?u=${canonicalUrl}`}
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+        >
+          <IconHover baseImgSrc={facebookImg} hoverImgSrc={facebookImg} altText="Facebook" />
         </a>
         <a
           className="shareIcon"
           href={`https://twitter.com/intent/tweet?&text=${title}&url=${canonicalUrl}`}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="nofollow noopener noreferrer"
         >
           <IconHover baseImgSrc={twitterImg} hoverImgSrc={twitterHoverImg} altText="Twitter" />
         </a>
@@ -153,15 +143,15 @@ const SubscribeNewsletter = ({ title, canonicalUrl }) => {
           className="shareIcon"
           href={`http://www.linkedin.com/shareArticle?mini=true&url=${canonicalUrl}&title=${title}&summary=${title}&source=${canonicalUrl}`}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="nofollow noopener noreferrer"
         >
           <IconHover baseImgSrc={linkedinImg} hoverImgSrc={linkedinHoverImg} altText="Linkedin" />
         </a>
       </div>
-      {isHasuraCloud ? (
+      {isAlibabaCloud ? (
         <div className="subscribeIcon">
-          <div className="shareIcon" role="button" tabIndex="0" onClick={() => setIsHasuraCloud(false)} onKeyDown={() => setIsHasuraCloud(false)}>
-            <IconHover baseImgSrc={hasuraGray} hoverImgSrc={hasuraBlue} altText="Mail" />
+          <div className="shareIcon" role="button" tabIndex="0" onClick={() => setisAlibabaCloud(false)} onKeyDown={() => setisAlibabaCloud(false)}>
+            <IconHover baseImgSrc={alibabacloudGray} hoverImgSrc={alibabacloud} altText="Mail" />
           </div>
         </div>
       ) : null}

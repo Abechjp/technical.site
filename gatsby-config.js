@@ -1,5 +1,4 @@
 require("dotenv").config();
-
 const queries = require("./src/utils/algolia");
 
 const path = require('path');
@@ -8,7 +7,7 @@ const config = require("./config");
 
 const plugins = [
   'gatsby-plugin-sitemap',
-  `gatsby-transformer-remark`,
+  'gatsby-transformer-remark',
   'gatsby-plugin-sharp',
   {
     resolve: `gatsby-plugin-layout`,
@@ -16,6 +15,7 @@ const plugins = [
         component: require.resolve(`./src/templates/docs.js`)
     }
   },
+  `gatsby-plugin-sass`,
   'gatsby-plugin-emotion',
   'gatsby-plugin-react-helmet',
   {
@@ -26,7 +26,13 @@ const plugins = [
     }
   },
   {
-    resolve: `gatsby-plugin-feed`,  //https://www.thirdrocktechkno.com/blog/how-to-generate-rss-feed-with-gatsby-js/
+    resolve: 'gatsby-plugin-preconnect',
+    options: {
+      domains: ['https://wcbb1vvlrc-dsn.algolia.net'],
+    },
+  },
+  {
+    resolve: `gatsby-plugin-feed`,
     options: {
       query: `
         {
@@ -96,6 +102,7 @@ const plugins = [
       extensions: [".mdx", ".md"]
     }
   },
+  /* ToDo: GoogleTagManagerどうするか方向性を決める必要がある
   {
     resolve: `gatsby-plugin-gtag`,
     options: {
@@ -106,11 +113,11 @@ const plugins = [
       // enable ip anonymization
       anonymize: false,
     },
-  },
+  },*/
 ];
 
 // check and add algolia
-if (config.header.search && config.header.search.enabled /*&& config.header.search.algoliaAppId && config.header.search.algoliaAdminKey*/ ) {
+if (config.header.search && config.header.search.enabled && config.header.search.algoliaAppId && config.header.search.algoliaAdminKey) {
   plugins.push({
     resolve: `gatsby-plugin-algolia`,
     options: {
@@ -121,7 +128,16 @@ if (config.header.search && config.header.search.enabled /*&& config.header.sear
     }}
   )
 }
-
+// check and add google tag manager
+if (config.gatsby.gaTrackingId) {
+  plugins.push({
+    resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: config.gatsby.gaTrackingId,
+        includeInDevelopment: false,
+      },
+  })
+}
 // check and add pwa functionality
 if (config.pwa && config.pwa.enabled && config.pwa.manifest) {
   plugins.push({

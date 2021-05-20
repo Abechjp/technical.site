@@ -1,15 +1,14 @@
 import React from 'react';
-import styled from '@emotion/styled';
 import { StaticQuery, graphql } from 'gatsby';
-import GitHubButton from 'react-github-btn';
-import Link from './link';
-import Loadable from 'react-loadable';
-
+import './styles.css';
 import config from '../../config.js';
-import LoadingProvider from './mdxComponents/loading';
-import { DarkModeSwitch } from './DarkModeSwitch';
 
-const help = require('./images/help.svg');
+import Loadable from 'react-loadable';
+import LoadingProvider from './mdxComponents/loading';
+import GitHubButton from 'react-github-btn';
+
+import help from './images/help.svg';
+import twitter from './images/twitter.svg';
 
 const isSearchEnabled = config.header.search && config.header.search.enabled ? true : false;
 
@@ -40,20 +39,8 @@ function myFunction() {
   }
 }
 
-const StyledBgDiv = styled('div')`
-  height: 60px;
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  background-color: #f8f8f8;
-  position: relative;
-  display: none;
-  background: ${props => (props.isDarkThemeActive ? '#001932' : undefined)};
 
-  @media (max-width: 767px) {
-    display: block;
-  }
-`;
-
-const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
+const Header = ({ location }) => (
   <StaticQuery
     query={graphql`
       query headerTitleQuery {
@@ -63,7 +50,6 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
             githubUrl
             helpUrl
             tweetText
-
             headerLinks {
               link
               text
@@ -72,9 +58,7 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
         }
       }
     `}
-    render={data => {
-
-      const twitter = require('./images/twitter.svg');
+    render={(data) => {
 
       const {
         site: {
@@ -82,33 +66,31 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
         },
       } = data;
 
-
       return (
-        <div className={'navBarWrapper'}>
-          <nav className={'navBarDefault'}>
-            <div className={'navBarHeader'}>
-              <div
-                className={'headerTitle displayInline'}
-                dangerouslySetInnerHTML={{ __html: headerTitle }}
-              />
-            </div>
-            {config.header.social ? (
+        <div>
+          <div className={'navBarWrapper'}>
+            <nav className={'navBarDefault'}>
+              <div className={'navBarHeader'}>
+                <div
+                  className={'headerTitle displayInline'}
+                  dangerouslySetInnerHTML={{ __html: headerTitle }}
+                />
+                <span role="button" tabIndex="0" onClick={myFunction} onKeyDown={myFunction} className={'navBarToggle'}>
+                  <span className={'iconBar'}></span>
+                  <span className={'iconBar'}></span>
+                  <span className={'iconBar'}></span>
+                </span>
+              </div>
+
+              {isSearchEnabled ? (
+                <div className={'searchWrapper hiddenMobile navBarUL'}>
+                  <LoadableComponent collapse={true} indices={searchIndices} />
+                </div>
+              ) : null}
+              {config.header.social ? (
               <ul
                 className="socialWrapper visibleMobileView"
-                dangerouslySetInnerHTML={{ __html: config.header.social }}
-              ></ul>
-            ) : null}
-            {isSearchEnabled ? (
-              <div className={'searchWrapper hiddenMobile navBarUL'}>
-                <LoadableComponent collapse={true} indices={searchIndices} />
-              </div>
-            ) : null}
-            <div id="navbar" className={'topnav'}>
-              <div className={'visibleMobile'}>
-                <Sidebar location={location} />
-                <hr />
-              </div>
-              <ul className={'navBarUL navBarNav navBarULRight'}>
+              >
                 {headerLinks.map((link, key) => {
                   if (link.link !== '' && link.text !== '') {
                     return (
@@ -165,35 +147,26 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
                     </GitHubButton>
                   </li>
                 ) : null}
-                <li>
-                  <DarkModeSwitch
-                    isDarkThemeActive={isDarkThemeActive}
-                    toggleActiveTheme={toggleActiveTheme}
-                  />
-                </li>
+
+
+
+
               </ul>
-            </div>
-          </nav>
-          <StyledBgDiv isDarkThemeActive={isDarkThemeActive}>
-            <div className={'navBarDefault removePadd'}>
-              <span
-                onClick={myFunction}
-                className={'navBarToggle'}
-                onKeyDown={myFunction}
-                role="button"
-                tabIndex={0}
-              >
-                <span className={'iconBar'}></span>
-                <span className={'iconBar'}></span>
-                <span className={'iconBar'}></span>
-              </span>
-            </div>
-            {isSearchEnabled ? (
-              <div className={'searchWrapper'}>
-                <LoadableComponent collapse={true} indices={searchIndices} />
-              </div>
             ) : null}
-          </StyledBgDiv>
+
+              <div id="navbar" className={'topnav'}>
+                <div className={'visibleMobile'}>
+                  <Sidebar location={location} />
+                  <hr />
+                    {isSearchEnabled ? (
+                    <div className={'searchWrapper'}>
+                      <LoadableComponent collapse={true} indices={searchIndices} />
+                    </div>
+                  ) : null}
+                </div>
+              </div>
+            </nav>
+          </div>
         </div>
       );
     }}

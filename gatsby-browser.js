@@ -8,3 +8,5 @@ export const onServiceWorkerUpdateReady = () => {
     window.location.reload()
   }
 }
+
+require('typeface-roboto');

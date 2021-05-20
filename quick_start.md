@@ -1,11 +1,3 @@
-## init系
-```
-npm install --save gatsby-cli
-npm install --save styled-icons
-npm install --save gatsby-plugin-feed
-npm install --save react-copy-to-clipboard
-```
-
 ##
 ```
 npm update
@@ -30,6 +22,7 @@ rd package-lock.json
 
 ```
 rd ./.cache -Recurse ; rd ./public/* -Recurse ; rd ./node_modules -Recurse ; rd package-lock.json ; npm install ; gatsby clean
+rd ./.cache -Recurse ; rd ./public/* -Recurse ; rd ./node_modules -Recurse ; rd package-lock.json ; yarn install ; gatsby clean
 ```
 
 
