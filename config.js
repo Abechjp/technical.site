@@ -13,7 +13,7 @@ const config = {
     "social": `<li>
     <a href="https://twitter.com/sbcloud_pr" target="_blank" rel="noopener">
       <div class="twitterBtn">
-        <img src='https://raw.githubusercontent.com/ohiro18/technical.site/master/src/components/images/twitter-brands-block.svg' alt={'Twitter'}/>
+        <img src='https://raw.githubusercontent.com/ohiro18/technical.site/master/src/components/images/twitter.svg' alt={'Twitter'}/>
       </div>
     </a>
         </li>
