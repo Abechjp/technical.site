@@ -1,10 +1,10 @@
 const config = {
 	"gatsby": {
-		"pathPrefix": "/technical.site/",
-		"siteUrl": "https://ohiro18.github.io/technical.site/",
+		"pathPrefix": "/",
+		"siteUrl": "https://ohiro18.github.io/technical.site",
 		"gaTrackingId": null,
 		"trailingSlash": false
-	},
+  },
 	"header": {
 		"title": "<a href='https://ohiro18.github.io/technical.site/'><img class='img-responsive' src='https://raw.githubusercontent.com/ohiro18/technical.site/master/src/components/images/TechnicalSite_2.png' alt='Learn logo' /></a>",
 		"githubUrl": "https://github.com/ohiro18/technical.site/",
