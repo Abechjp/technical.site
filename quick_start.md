@@ -30,6 +30,9 @@ rd ./.cache -Recurse ; rd ./public/* -Recurse ; rd ./node_modules -Recurse ; rd 
 gatsby clean
 ```
 
+```
+gatsby develop
+```
 
 
 ```

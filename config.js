@@ -79,8 +79,8 @@ const config = {
 		],
     	"collapsedNav": [
         "/01-introduction",
-        "/02-product_service",
-        "/03-advisory",
+        "/02-product_service"
+ /*       "/03-advisory",
         "/04-Hands-on-Training-Kubernetes",
         "/05-Hands-on-Training-DataWorks",
         "/06-Hands-on-Training-DataLake Analytics",
@@ -95,10 +95,10 @@ const config = {
         "/15-usecase-data-analytics",
         "/16-NYC-Taxi-tutorial",
         "/17-developer-tools",
-        "/18-Terraform"
+        "/18-Terraform"*/
     	],
 		"links":[{ text: 'お問い合わせ', link: 'https://www.sbcloud.co.jp/contact_jp/' },{ text: 'よくある質問はTSSへ', link: 'https://www.sbcloud.co.jp/service/about/ts/' }],
-		"frontline": false,
+		"frontline": true,
 		"ignoreIndex": true,
 	},
 	"siteMetadata": {
