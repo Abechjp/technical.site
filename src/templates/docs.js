@@ -113,7 +113,7 @@ export default class MDXRuntimeTest extends Component {
     let canonicalUrl = config.gatsby.siteUrl;
 
     canonicalUrl =
-      config.gatsby.pathPrefix !== '/' ? canonicalUrl + config.gatsby.pathPrefix : canonicalUrl;
+      config.gatsby.pathPrefix !== '/' ? canonicalUrl  : canonicalUrl;
     canonicalUrl = canonicalUrl + mdx.fields.slug;
 
     // frontmatter canonical takes precedence
