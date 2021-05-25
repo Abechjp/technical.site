@@ -33,9 +33,10 @@ Visit `http://localhost:8000/` to view the app.
 途中からの編集展開時は以下コマンドです。
 
 ```
-$ rd ./.cache -Recurse ; gatsby clean ; gatsby build --prefix-paths ; cp src/components/404.html public/
+$ rd ./.cache -Recurse ; rd ./public/* -Recurse ; rd ./node_modules -Recurse ; rd ./docs/ -Recurse; mkdir docs
 $ rd yarn.lock
-$ yarn
+$ npm cache clean --force
+$ yarn install
 $ gatsby clean
 $ gatsby develop
 ```

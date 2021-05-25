@@ -1,9 +1,6 @@
 次にやるタスク@20210522
-C:\Users\Administrator\dev\technical.site.ph2　を参考にしつつ、、
-・本番環境だと、サブページが見れない問題を対処
-・本番環境でWomdow pop / navi表示問題
-・マイグレーション
-
+C:\Users\Administrator\dev\technical.site.ph2 およびts2testを参考にしつつ、、
+・本番環境でnavi表示問題
 
 * ALL
   - [x] add search bar
