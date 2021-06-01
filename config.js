@@ -109,7 +109,7 @@ const config = {
     "favicon": 'https://www.sbcloud.co.jp/icon/favicon',
 	},
 	"pwa": {
-		"enabled": true, // disabling this will also remove the existing service worker.
+		"enabled": false, // disabling this will also remove the existing service worker.
 		"manifest": {
 			"name": "Alibaba Cloud technical.site",
 			"short_name": "AliCloud-technical.site",

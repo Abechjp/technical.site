@@ -52,6 +52,13 @@ $ gatsby clean
 $ gatsby develop
 ```
 
+### 注意事項
+Markdownとして編集は出来ますが、以下のMarkdown文法には対応していません。
+
+```
+<br>
+```
+
 ## 🤖 SEO 対策
 
 Markdownファイルごとにtitleやdescriptionなどのmetaタグを設定することができます。
