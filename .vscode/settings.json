@@ -1,0 +1,10 @@
+{
+    "extensions.supportVirtualWorkspaces": {
+
+
+        "pub.name": false
+    },
+    "[markdown]": {
+      "files.trimTrailingWhitespace": false
+    }
+}

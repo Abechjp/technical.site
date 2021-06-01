@@ -59,6 +59,9 @@ Markdownとして編集は出来ますが、以下のMarkdown文法には対応�
 <br>
 ```
 
+また、H1（見出し）となるものでURLを付与することもできません。
+
+
 ## 🤖 SEO 対策
 
 Markdownファイルごとにtitleやdescriptionなどのmetaタグを設定することができます。
